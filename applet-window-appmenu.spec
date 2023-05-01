@@ -49,5 +49,5 @@ latte-dock and standard Plasma panels.
 %{_datadir}/plasma/plasmoids/org.kde.windowappmenu
 
 %changelog
-* Mon May 25 2023 Ross Williams <gunzy83au@gmail.com> - 0.8.0-0
+* Mon May 1 2023 Ross Williams <gunzy83au@gmail.com> - 0.8.0-0
 - Initial packaging

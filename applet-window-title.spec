@@ -33,5 +33,5 @@ cp -dpRf contents metadata.desktop %{buildroot}%{_datadir}/plasma/plasmoids/org.
 %{_datadir}/plasma/plasmoids/org.kde.windowtitle
 
 %changelog
-* Mon May 25 2023 Ross Williams <gunzy83au@gmail.com> - 0.7.1-0
+* Mon May 1 2023 Ross Williams <gunzy83au@gmail.com> - 0.7.1-0
 - Initial packaging
