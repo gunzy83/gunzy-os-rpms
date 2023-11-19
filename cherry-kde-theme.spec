@@ -5,8 +5,8 @@ Version:        1.6
 Release:        0
 License:        GPL-2.0-or-later
 Group:          System/GUI/KDE
-URL:            https://github.com/nullxception/cherry-kde-theme
-Source0:        https://github.com/nullxception/cherry-kde-theme/archive/%{version}/%{name}-%{version}.tar.gz
+URL:            https://github.com/nullxception/cherry-kde
+Source0:        https://github.com/nullxception/cherry-kde/archive/%{version}/cherry-kde-%{version}.tar.gz
 
 BuildArch: noarch
 
@@ -28,7 +28,7 @@ plasma desktop theme
 splash screen
 
 %prep
-%autosetup
+%autosetup -n cherry-kde-%{version}
 
 %build
 THEME_NAME=cherry
